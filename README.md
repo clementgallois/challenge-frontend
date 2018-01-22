@@ -2,6 +2,7 @@
 ![hiboo](http://hiboo-preprod.herokuapp.com/assets/logo-1dc0622627df9b16cfe34026f48b408ddcb2e08b4186fd5f13841a39d0d0c4cd.png)
 
 "Where's my stuff?"
+
 This is our challenge for the fullstack developer trainee position at [@hiboo](https://www.hiboo.io/).
 The goal is to build a React microsite that allows the user to see the gps locations of all its trackers.
 
