@@ -1,0 +1,1548 @@
+[
+  {
+    "id": "19c8af9b6787220004533550",
+    "lat": 48.762768,
+    "long": 2.08256,
+    "date": "2017-09-25T07:20:00.000Z",
+    "address": "Rue Panhard, 78280 Guyancourt, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a6640833af29600042c3269",
+    "lat": 48.894216,
+    "long": 1.404592,
+    "date": "2018-01-22T19:50:00.000Z",
+    "address": "23 Rue de la Fontaine, 27750 La Couture-Boussey, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a6640833af29600042c3268",
+    "lat": 48.894176,
+    "long": 1.404592,
+    "date": "2018-01-22T19:45:00.000Z",
+    "address": "23 Rue de la Fontaine, 27750 La Couture-Boussey, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a6644c53af29600042c327a",
+    "lat": 48.912488,
+    "long": 1.277904,
+    "date": "2018-01-22T19:20:00.000Z",
+    "address": "41 Rue de Pacy, 27220 Saint-André-de-l'Eure, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a6644c53af29600042c3279",
+    "lat": 48.931988,
+    "long": 1.236704,
+    "date": "2018-01-22T19:15:00.000Z",
+    "address": "2 Route de Saint-André, 27220 La Forêt-du-Parc, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a66448a3af29600042c3277",
+    "lat": 48.974844,
+    "long": 1.199616,
+    "date": "2018-01-22T19:10:00.000Z",
+    "address": "N154, 27930 Guichainville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a66448a3af29600042c3276",
+    "lat": 49.027684,
+    "long": 1.179396,
+    "date": "2018-01-22T19:05:00.000Z",
+    "address": "52 Rue de Fauville, 27000 Évreux, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a66291f3af29600042c3240",
+    "lat": 49.027692,
+    "long": 1.179388,
+    "date": "2018-01-22T18:10:00.000Z",
+    "address": "52 Rue de Fauville, 27000 Évreux, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a66291e3af29600042c323f",
+    "lat": 49.027532,
+    "long": 1.179328,
+    "date": "2018-01-22T18:05:00.000Z",
+    "address": "52 Rue de Fauville, 27000 Évreux, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662e7e3af29600042c325a",
+    "lat": 48.989156,
+    "long": 1.195108,
+    "date": "2018-01-22T17:50:00.000Z",
+    "address": "N154, 27930 Guichainville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662e7e3af29600042c3259",
+    "lat": 48.927336,
+    "long": 1.240148,
+    "date": "2018-01-22T17:45:00.000Z",
+    "address": "1 Route de Saint-André, 27220 La Forêt-du-Parc, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662e423af29600042c3257",
+    "lat": 48.912516,
+    "long": 1.279288,
+    "date": "2018-01-22T17:40:00.000Z",
+    "address": "D141, 27220 Saint-André-de-l'Eure, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662e423af29600042c3256",
+    "lat": 48.909736,
+    "long": 1.352788,
+    "date": "2018-01-22T17:35:00.000Z",
+    "address": "D833, 27220 Mousseaux-Neuville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662e063af29600042c3254",
+    "lat": 48.860756,
+    "long": 1.423072,
+    "date": "2018-01-22T16:00:00.000Z",
+    "address": "1 Rue d'Ezy, 28260 Saussay, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662e063af29600042c3253",
+    "lat": 48.844196,
+    "long": 1.465252,
+    "date": "2018-01-22T15:55:00.000Z",
+    "address": "18 Route de Rouvres, 28260 Boncourt, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662dca3af29600042c3251",
+    "lat": 48.798048,
+    "long": 1.501188,
+    "date": "2018-01-22T15:50:00.000Z",
+    "address": "1 Rue des Sureaux, 28410 Bû, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662dca3af29600042c3250",
+    "lat": 48.774728,
+    "long": 1.554808,
+    "date": "2018-01-22T15:45:00.000Z",
+    "address": "20 Rue Saint-Aignan, 28410 Goussainville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662d8e3af29600042c324e",
+    "lat": 48.796152,
+    "long": 1.676224,
+    "date": "2018-01-22T15:40:00.000Z",
+    "address": "N12, 78550 Bazainville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662d8e3af29600042c324d",
+    "lat": 48.801432,
+    "long": 1.809384,
+    "date": "2018-01-22T15:35:00.000Z",
+    "address": "N12, 78490 Galluis, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662d523af29600042c324b",
+    "lat": 48.801284,
+    "long": 1.942536,
+    "date": "2018-01-22T15:30:00.000Z",
+    "address": "N12, 78370 Plaisir, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662d523af29600042c324a",
+    "lat": 48.789364,
+    "long": 2.059796,
+    "date": "2018-01-22T15:25:00.000Z",
+    "address": "N12, 78280 Guyancourt, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662d163af29600042c3248",
+    "lat": 48.773492,
+    "long": 2.071552,
+    "date": "2018-01-22T15:20:00.000Z",
+    "address": "1 Rue Louis Pasteur, 78280 Guyancourt, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a662d163af29600042c3247",
+    "lat": 48.762812,
+    "long": 2.089472,
+    "date": "2018-01-22T15:15:00.000Z",
+    "address": "Rue Delahaye, 78280 Guyancourt, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658d7ea2c7570004cacfe7",
+    "lat": 48.76548,
+    "long": 2.08436,
+    "date": "2018-01-22T06:20:00.000Z",
+    "address": "Rigole de Guyancourt, 78280 Guyancourt, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658d7ea2c7570004cacfe6",
+    "lat": 48.76548,
+    "long": 2.08436,
+    "date": "2018-01-22T06:15:00.000Z",
+    "address": "Rigole de Guyancourt, 78280 Guyancourt, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658d3fa2c7570004cacfe4",
+    "lat": 48.779696,
+    "long": 2.005624,
+    "date": "2018-01-22T06:10:00.000Z",
+    "address": "1T Route de Dreux, 78190 Trappes, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658d3fa2c7570004cacfe3",
+    "lat": 48.788816,
+    "long": 1.975524,
+    "date": "2018-01-22T06:05:00.000Z",
+    "address": "Route de Dreux, 78190 Trappes, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658d01a2c7570004cacfe1",
+    "lat": 48.796996,
+    "long": 1.939228,
+    "date": "2018-01-22T06:00:00.000Z",
+    "address": "1467 Avenue D'Armorique, 78370 Plaisir, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658d01a2c7570004cacfe0",
+    "lat": 48.797236,
+    "long": 1.863868,
+    "date": "2018-01-22T05:55:00.000Z",
+    "address": "N12, 78490 Mareil-le-Guyon, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658cc5a2c7570004cacfde",
+    "lat": 48.798884,
+    "long": 1.775336,
+    "date": "2018-01-22T05:50:00.000Z",
+    "address": "N12, 78940 La Queue-lez-Yvelines, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658cc5a2c7570004cacfdd",
+    "lat": 48.795244,
+    "long": 1.670636,
+    "date": "2018-01-22T05:45:00.000Z",
+    "address": "N12, 78550 Bazainville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658c8da2c7570004cacfdb",
+    "lat": 48.77288,
+    "long": 1.558832,
+    "date": "2018-01-22T05:40:00.000Z",
+    "address": "D147.12, 28410 Goussainville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658c8da2c7570004cacfda",
+    "lat": 48.79256,
+    "long": 1.518872,
+    "date": "2018-01-22T05:35:00.000Z",
+    "address": "D21.4, 28410 Bû, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658c4fa2c7570004cacfd8",
+    "lat": 48.832944,
+    "long": 1.465484,
+    "date": "2018-01-22T05:30:00.000Z",
+    "address": "D21, 28260 Rouvres, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a658c4fa2c7570004cacfd7",
+    "lat": 48.853444,
+    "long": 1.435344,
+    "date": "2018-01-22T05:25:00.000Z",
+    "address": "12 Rue Hubert Baraine, 28260 Anet, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a6574c8a2c7570004cacfcf",
+    "lat": 48.894436,
+    "long": 1.404684,
+    "date": "2018-01-22T05:10:00.000Z",
+    "address": "19 Rue de la Fontaine, 27750 La Couture-Boussey, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a6574c8a2c7570004cacfce",
+    "lat": 48.894436,
+    "long": 1.404684,
+    "date": "2018-01-22T05:05:00.000Z",
+    "address": "19 Rue de la Fontaine, 27750 La Couture-Boussey, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a620d2210231300047f9992",
+    "lat": 48.894436,
+    "long": 1.404684,
+    "date": "2018-01-19T15:20:00.000Z",
+    "address": "19 Rue de la Fontaine, 27750 La Couture-Boussey, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a620d2110231300047f9991",
+    "lat": 48.909436,
+    "long": 1.354264,
+    "date": "2018-01-19T15:15:00.000Z",
+    "address": "D833, 27220 Mousseaux-Neuville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a62118f10231300047f999d",
+    "lat": 48.9962,
+    "long": 1.192564,
+    "date": "2018-01-19T15:00:00.000Z",
+    "address": "N154, 27930 Le Vieil-Évreux, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a62118f10231300047f999c",
+    "lat": 49.07836,
+    "long": 1.187564,
+    "date": "2018-01-19T14:55:00.000Z",
+    "address": "N154, 27930 Le Boulay-Morin, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a62115110231300047f999a",
+    "lat": 49.168624,
+    "long": 1.1721,
+    "date": "2018-01-19T14:50:00.000Z",
+    "address": "N154, 27400 Acquigny, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a62115010231300047f9999",
+    "lat": 49.247044,
+    "long": 1.18034,
+    "date": "2018-01-19T14:45:00.000Z",
+    "address": "Autoroute de Normandie, 27100 Val-de-Reuil, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a62036310231300047f998e",
+    "lat": 49.324376,
+    "long": 1.096052,
+    "date": "2018-01-19T14:40:00.000Z",
+    "address": "Autoroute de Normandie, 76410 Tourville-la-Rivière, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a62036310231300047f998d",
+    "lat": 49.316736,
+    "long": 1.048152,
+    "date": "2018-01-19T14:35:00.000Z",
+    "address": "Unnamed Road, 76410 Cleon, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a619b540791bc0004367ff5",
+    "lat": 49.31672,
+    "long": 1.04814,
+    "date": "2018-01-19T07:10:00.000Z",
+    "address": "Unnamed Road, 76410 Cleon, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a619b540791bc0004367ff4",
+    "lat": 49.31418,
+    "long": 1.05384,
+    "date": "2018-01-19T07:05:00.000Z",
+    "address": "Route de Tourville, 76410 Cleon, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a619f660791bc0004367ffd",
+    "lat": 49.242788,
+    "long": 1.186476,
+    "date": "2018-01-19T06:50:00.000Z",
+    "address": "Autoroute de Normandie, 27100 Val-de-Reuil, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a619f660791bc0004367ffc",
+    "lat": 49.161408,
+    "long": 1.179336,
+    "date": "2018-01-19T06:45:00.000Z",
+    "address": "N154, 27400 Acquigny, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a6193cc0791bc0004367ff2",
+    "lat": 49.072124,
+    "long": 1.183152,
+    "date": "2018-01-19T06:40:00.000Z",
+    "address": "N154, 27930 Le Boulay-Morin, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a6193cc0791bc0004367ff1",
+    "lat": 48.990444,
+    "long": 1.194432,
+    "date": "2018-01-19T06:35:00.000Z",
+    "address": "N154, 27930 Guichainville, France",
+    "device_id": "19c108816d60af0004c1e13b"
+  },
+  {
+    "id": "1a664e2c3af29600042c3283",
+    "lat": 48.834456,
+    "long": 2.328748,
+    "date": "2018-01-22T20:40:00.000Z",
+    "address": "34 Rue Daguerre, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a664e2c3af29600042c3282",
+    "lat": 48.833256,
+    "long": 2.326948,
+    "date": "2018-01-22T20:35:00.000Z",
+    "address": "14 Rue Charles Divry, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a663d483af29600042c3262",
+    "lat": 48.868472,
+    "long": 2.323708,
+    "date": "2018-01-22T19:25:00.000Z",
+    "address": "18 Rue Royale, 75008 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6639653af29600042c325e",
+    "lat": 48.84614,
+    "long": 2.318044,
+    "date": "2018-01-22T19:10:00.000Z",
+    "address": "9bis Boulevard du Montparnasse, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6639653af29600042c325d",
+    "lat": 48.8334,
+    "long": 2.328944,
+    "date": "2018-01-22T19:05:00.000Z",
+    "address": "25 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6621263af29600042c3233",
+    "lat": 48.833392,
+    "long": 2.328952,
+    "date": "2018-01-22T17:30:00.000Z",
+    "address": "27 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6621253af29600042c3232",
+    "lat": 48.833392,
+    "long": 2.328832,
+    "date": "2018-01-22T17:25:00.000Z",
+    "address": "27 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a631c8110231300047f99df",
+    "lat": 48.833656,
+    "long": 2.32874,
+    "date": "2018-01-20T10:30:00.000Z",
+    "address": "28 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a631c8110231300047f99de",
+    "lat": 48.832036,
+    "long": 2.3293,
+    "date": "2018-01-20T10:25:00.000Z",
+    "address":
+      "4 Square Henri Delormel, 75014 Paris-14E-Arrondissement, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6319e510231300047f99d9",
+    "lat": 48.83126,
+    "long": 2.330064,
+    "date": "2018-01-20T10:15:00.000Z",
+    "address": "27 Avenue du Général Leclerc, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6313df10231300047f99d6",
+    "lat": 48.846004,
+    "long": 2.325208,
+    "date": "2018-01-20T10:00:00.000Z",
+    "address": "136 Rue de Rennes, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6313df10231300047f99d5",
+    "lat": 48.846044,
+    "long": 2.325148,
+    "date": "2018-01-20T09:55:00.000Z",
+    "address": "136 Rue de Rennes, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a63117610231300047f99d3",
+    "lat": 48.837624,
+    "long": 2.323024,
+    "date": "2018-01-20T09:50:00.000Z",
+    "address": "Rue Froidevaux, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a63117610231300047f99d2",
+    "lat": 48.833564,
+    "long": 2.328304,
+    "date": "2018-01-20T09:45:00.000Z",
+    "address": "4 Rue Liancourt, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a63101910231300047f99cf",
+    "lat": 48.833544,
+    "long": 2.328316,
+    "date": "2018-01-20T09:40:00.000Z",
+    "address": "3-5 Rue Liancourt, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a63101910231300047f99ce",
+    "lat": 48.833644,
+    "long": 2.328836,
+    "date": "2018-01-20T09:35:00.000Z",
+    "address": "21 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a623df610231300047f99c0",
+    "lat": 48.833652,
+    "long": 2.328852,
+    "date": "2018-01-19T18:50:00.000Z",
+    "address": "21 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a623df610231300047f99bf",
+    "lat": 48.833152,
+    "long": 2.328672,
+    "date": "2018-01-19T18:45:00.000Z",
+    "address": "31 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a623b7510231300047f99bd",
+    "lat": 48.842308,
+    "long": 2.32952,
+    "date": "2018-01-19T18:30:00.000Z",
+    "address": "145 Boulevard Raspail, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a623b7510231300047f99bc",
+    "lat": 48.852128,
+    "long": 2.3316,
+    "date": "2018-01-19T18:25:00.000Z",
+    "address": "57 Rue de Rennes, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6231cc10231300047f99b3",
+    "lat": 48.853332,
+    "long": 2.330372,
+    "date": "2018-01-19T17:45:00.000Z",
+    "address": "22 Rue du Dragon, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a62263a10231300047f99ab",
+    "lat": 48.853352,
+    "long": 2.33036,
+    "date": "2018-01-19T17:00:00.000Z",
+    "address": "20 Rue du Dragon, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a62263a10231300047f99aa",
+    "lat": 48.845152,
+    "long": 2.32476,
+    "date": "2018-01-19T16:55:00.000Z",
+    "address": "144 Rue de Rennes, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61fa5010231300047f997d",
+    "lat": 48.833436,
+    "long": 2.328892,
+    "date": "2018-01-19T14:00:00.000Z",
+    "address": "25 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61fa5010231300047f997c",
+    "lat": 48.837696,
+    "long": 2.321392,
+    "date": "2018-01-19T13:55:00.000Z",
+    "address": "12 Rue Jean Zay, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61f11c10231300047f9973",
+    "lat": 48.86108,
+    "long": 2.308396,
+    "date": "2018-01-19T13:20:00.000Z",
+    "address": "129 Rue de l'Université, 75007 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61f11c10231300047f9972",
+    "lat": 48.86182,
+    "long": 2.308216,
+    "date": "2018-01-19T13:15:00.000Z",
+    "address": "2 Avenue Sully-Prudhomme, 75007 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61d08610231300047f995f",
+    "lat": 48.852068,
+    "long": 2.339016,
+    "date": "2018-01-19T11:00:00.000Z",
+    "address": "97 Boulevard Saint-Germain, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61d08610231300047f995e",
+    "lat": 48.852188,
+    "long": 2.338716,
+    "date": "2018-01-19T10:55:00.000Z",
+    "address": "1 Carrefour de l'Odéon, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61b6aa0791bc000436800c",
+    "lat": 48.847328,
+    "long": 2.328124,
+    "date": "2018-01-19T09:10:00.000Z",
+    "address": "91 Boulevard Raspail, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61b5580791bc0004368008",
+    "lat": 48.8443,
+    "long": 2.32734,
+    "date": "2018-01-19T09:00:00.000Z",
+    "address": "28 Rue du Montparnasse, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61b5580791bc0004368007",
+    "lat": 48.84422,
+    "long": 2.32756,
+    "date": "2018-01-19T08:55:00.000Z",
+    "address": "21 Rue du Montparnasse, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61afb20791bc0004368003",
+    "lat": 48.833472,
+    "long": 2.328624,
+    "date": "2018-01-19T08:40:00.000Z",
+    "address": "27 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a61afb20791bc0004368002",
+    "lat": 48.833512,
+    "long": 2.328844,
+    "date": "2018-01-19T08:35:00.000Z",
+    "address": "25B Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60de110791bc0004367fb4",
+    "lat": 48.842136,
+    "long": 2.329068,
+    "date": "2018-01-18T17:35:00.000Z",
+    "address": "108 Boulevard du Montparnasse, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60da3a0791bc0004367fa9",
+    "lat": 48.862904,
+    "long": 2.319236,
+    "date": "2018-01-18T17:30:00.000Z",
+    "address": "57 Pont de la Concorde, 75007 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60da3a0791bc0004367fa8",
+    "lat": 48.860144,
+    "long": 2.290936,
+    "date": "2018-01-18T17:25:00.000Z",
+    "address": "Place de Varsovie, 75016 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60b81e0791bc0004367f72",
+    "lat": 48.82816,
+    "long": 2.233496,
+    "date": "2018-01-18T15:00:00.000Z",
+    "address":
+      "1701-1811 Rue du Vieux Pont de Sèvres, 92100 Boulogne-Billancourt, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60b81e0791bc0004367f71",
+    "lat": 48.82318,
+    "long": 2.243356,
+    "date": "2018-01-18T14:55:00.000Z",
+    "address": "21 Quai Georges Gorse, 92100 Boulogne-Billancourt, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60bc420791bc0004367f93",
+    "lat": 48.847376,
+    "long": 2.316332,
+    "date": "2018-01-18T14:40:00.000Z",
+    "address": "65 Boulevard des Invalides, 75007 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60bc420791bc0004367f92",
+    "lat": 48.844596,
+    "long": 2.327472,
+    "date": "2018-01-18T14:35:00.000Z",
+    "address": "20 Rue du Montparnasse, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60bc060791bc0004367f8f",
+    "lat": 48.844432,
+    "long": 2.32918,
+    "date": "2018-01-18T14:30:00.000Z",
+    "address": "129 Boulevard Raspail, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60bc060791bc0004367f8e",
+    "lat": 48.834212,
+    "long": 2.33302,
+    "date": "2018-01-18T14:25:00.000Z",
+    "address": "101 Place Denfert-Rochereau, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60af5d0791bc0004367f5d",
+    "lat": 48.834208,
+    "long": 2.333036,
+    "date": "2018-01-18T14:20:00.000Z",
+    "address": "101 Place Denfert-Rochereau, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60af5c0791bc0004367f5c",
+    "lat": 48.832328,
+    "long": 2.339036,
+    "date": "2018-01-18T14:15:00.000Z",
+    "address": "200 Boulevard Saint-Jacques, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60a44a0791bc0004367f42",
+    "lat": 48.832328,
+    "long": 2.339036,
+    "date": "2018-01-18T13:40:00.000Z",
+    "address": "200 Boulevard Saint-Jacques, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60a4490791bc0004367f41",
+    "lat": 48.834568,
+    "long": 2.332956,
+    "date": "2018-01-18T13:35:00.000Z",
+    "address": "97 Avenue Denfert-Rochereau, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60a3020791bc0004367f3d",
+    "lat": 48.834568,
+    "long": 2.332948,
+    "date": "2018-01-18T13:30:00.000Z",
+    "address": "97 Avenue Denfert-Rochereau, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a60a3020791bc0004367f3c",
+    "lat": 48.846128,
+    "long": 2.351608,
+    "date": "2018-01-18T13:25:00.000Z",
+    "address": "32 Rue Monge, 75005 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6088c50791bc0004367f16",
+    "lat": 48.846144,
+    "long": 2.35162,
+    "date": "2018-01-18T11:40:00.000Z",
+    "address": "32 Rue Monge, 75005 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a6088c50791bc0004367f15",
+    "lat": 48.846324,
+    "long": 2.35176,
+    "date": "2018-01-18T11:35:00.000Z",
+    "address": "31 Rue Monge, 75005 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5e5a13cf7f5800040854b1",
+    "lat": 48.878892,
+    "long": 2.235048,
+    "date": "2018-01-16T20:00:00.000Z",
+    "address": "175 Rue de Verdun, 92150 Suresnes, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5e5a12cf7f5800040854b0",
+    "lat": 48.878392,
+    "long": 2.242668,
+    "date": "2018-01-16T19:55:00.000Z",
+    "address": "5148 Pont de Puteaux, 92800 Puteaux, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5e06efcf7f580004085441",
+    "lat": 48.833548,
+    "long": 2.328796,
+    "date": "2018-01-16T13:55:00.000Z",
+    "address": "25B Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5dbfa6cf7f580004085410",
+    "lat": 48.87454,
+    "long": 2.355552,
+    "date": "2018-01-16T09:00:00.000Z",
+    "address": "96 Rue du Faubourg Saint-Denis, 75010 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5e00f8cf7f58000408543c",
+    "lat": 48.87454,
+    "long": 2.355552,
+    "date": "2018-01-16T09:00:00.000Z",
+    "address": "96 Rue du Faubourg Saint-Denis, 75010 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5dbfa6cf7f58000408540f",
+    "lat": 48.8741,
+    "long": 2.355652,
+    "date": "2018-01-16T08:55:00.000Z",
+    "address": "10 Rue Jarry, 75010 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5e00f8cf7f58000408543b",
+    "lat": 48.87454,
+    "long": 2.355552,
+    "date": "2018-01-16T08:55:00.000Z",
+    "address": "96 Rue du Faubourg Saint-Denis, 75010 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5c8128a16d680004ad21c2",
+    "lat": 48.8466,
+    "long": 2.328236,
+    "date": "2018-01-15T10:20:00.000Z",
+    "address": "92 Boulevard Raspail, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5cedbfa16d680004ad2234",
+    "lat": 48.8466,
+    "long": 2.328236,
+    "date": "2018-01-15T10:20:00.000Z",
+    "address": "92 Boulevard Raspail, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5c8128a16d680004ad21c1",
+    "lat": 48.84672,
+    "long": 2.328016,
+    "date": "2018-01-15T10:15:00.000Z",
+    "address": "40-42 Rue de Fleurus, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5cedbfa16d680004ad2233",
+    "lat": 48.8466,
+    "long": 2.328236,
+    "date": "2018-01-15T10:15:00.000Z",
+    "address": "92 Boulevard Raspail, 75006 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a58b0e365a843000471cd4e",
+    "lat": 48.833944,
+    "long": 2.328288,
+    "date": "2018-01-12T12:50:00.000Z",
+    "address": "23 Rue Lalande, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a58b0e265a843000471cd4d",
+    "lat": 48.838544,
+    "long": 2.321708,
+    "date": "2018-01-12T12:45:00.000Z",
+    "address": "80 Avenue du Maine, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a58ae7365a843000471cd42",
+    "lat": 48.861224,
+    "long": 2.313268,
+    "date": "2018-01-12T12:40:00.000Z",
+    "address": "52 Avenue du Maréchal Gallieni, 75007 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a58ae7365a843000471cd41",
+    "lat": 48.871164,
+    "long": 2.303048,
+    "date": "2018-01-12T12:35:00.000Z",
+    "address": "75-77 Av. des Champs-Élysées, 75008 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a58a90365a843000471cd2f",
+    "lat": 48.871184,
+    "long": 2.303036,
+    "date": "2018-01-12T12:20:00.000Z",
+    "address": "75-77 Av. des Champs-Élysées, 75008 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a58a90365a843000471cd2e",
+    "lat": 48.871684,
+    "long": 2.302276,
+    "date": "2018-01-12T12:15:00.000Z",
+    "address": "102 Av. des Champs-Élysées, 75008 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a58805065a843000471cd09",
+    "lat": 48.876612,
+    "long": 2.264496,
+    "date": "2018-01-12T09:30:00.000Z",
+    "address": "8 Avenue du Mahatma Gandhi, 75016 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a58804f65a843000471cd08",
+    "lat": 48.875792,
+    "long": 2.262356,
+    "date": "2018-01-12T09:25:00.000Z",
+    "address": "Allée des Maronniers, 75116 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a587dde65a843000471cd05",
+    "lat": 48.874008,
+    "long": 2.293776,
+    "date": "2018-01-12T09:20:00.000Z",
+    "address": "1 Avenue de la Grande-Armée, 75116 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a587dde65a843000471cd04",
+    "lat": 48.867528,
+    "long": 2.314056,
+    "date": "2018-01-12T09:15:00.000Z",
+    "address": "1 Place Clemenceau, 75008 Paris-8E-Arrondissement, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a587c9565a843000471ccff",
+    "lat": 48.867516,
+    "long": 2.314072,
+    "date": "2018-01-12T09:10:00.000Z",
+    "address": "1 Place Clemenceau, 75008 Paris-8E-Arrondissement, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a587c9565a843000471ccfe",
+    "lat": 48.847036,
+    "long": 2.316632,
+    "date": "2018-01-12T09:05:00.000Z",
+    "address": "67 Boulevard des Invalides, 75007 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a587b5065a843000471ccfc",
+    "lat": 48.847036,
+    "long": 2.316632,
+    "date": "2018-01-12T09:00:00.000Z",
+    "address": "67 Boulevard des Invalides, 75007 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a587b4f65a843000471ccfb",
+    "lat": 48.833476,
+    "long": 2.328672,
+    "date": "2018-01-12T08:55:00.000Z",
+    "address": "27 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a57aa5f4e1d8b0004d764d9",
+    "lat": 48.833472,
+    "long": 2.328684,
+    "date": "2018-01-11T18:10:00.000Z",
+    "address": "27 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a57ad3f4e1d8b0004d764e4",
+    "lat": 48.833472,
+    "long": 2.328684,
+    "date": "2018-01-11T18:10:00.000Z",
+    "address": "27 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a57aa5f4e1d8b0004d764d8",
+    "lat": 48.846832,
+    "long": 2.326264,
+    "date": "2018-01-11T18:05:00.000Z",
+    "address": "67 Rue de Vaugirard, 75006 Paris-6E-Arrondissement, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a57ad3f4e1d8b0004d764e3",
+    "lat": 48.846832,
+    "long": 2.326264,
+    "date": "2018-01-11T18:05:00.000Z",
+    "address": "67 Rue de Vaugirard, 75006 Paris-6E-Arrondissement, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a57238a4e1d8b0004d76432",
+    "lat": 48.846852,
+    "long": 2.326264,
+    "date": "2018-01-11T08:40:00.000Z",
+    "address": "67 Rue de Vaugirard, 75006 Paris-6E-Arrondissement, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a57238a4e1d8b0004d76431",
+    "lat": 48.837672,
+    "long": 2.339224,
+    "date": "2018-01-11T08:35:00.000Z",
+    "address": "29 Rue du Faubourg Saint-Jacques, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a57181c4e1d8b0004d7642a",
+    "lat": 48.837652,
+    "long": 2.339228,
+    "date": "2018-01-11T07:50:00.000Z",
+    "address": "29 Rue du Faubourg Saint-Jacques, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a57181c4e1d8b0004d76429",
+    "lat": 48.839072,
+    "long": 2.337668,
+    "date": "2018-01-11T07:45:00.000Z",
+    "address": "94 Boulevard de Port-Royal, 75005 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a56262b31dd600004fc9a6b",
+    "lat": 48.833356,
+    "long": 2.328772,
+    "date": "2018-01-10T14:40:00.000Z",
+    "address": "29 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5628e131dd600004fc9a6f",
+    "lat": 48.833356,
+    "long": 2.328772,
+    "date": "2018-01-10T14:40:00.000Z",
+    "address": "29 Rue Boulard, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a56262b31dd600004fc9a6a",
+    "lat": 48.831356,
+    "long": 2.321732,
+    "date": "2018-01-10T14:35:00.000Z",
+    "address": "31 Rue Hippolyte Maindron, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5628e131dd600004fc9a6e",
+    "lat": 48.831356,
+    "long": 2.321732,
+    "date": "2018-01-10T14:35:00.000Z",
+    "address": "31 Rue Hippolyte Maindron, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a56217131dd600004fc9a55",
+    "lat": 48.831344,
+    "long": 2.321724,
+    "date": "2018-01-10T14:20:00.000Z",
+    "address": "18 Rue Léonidas, 75014 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a56217131dd600004fc9a54",
+    "lat": 48.846204,
+    "long": 2.317044,
+    "date": "2018-01-10T14:15:00.000Z",
+    "address": "10 Boulevard du Montparnasse, 75015 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a5618c031dd600004fc9a2a",
+    "lat": 48.858032,
+    "long": 2.314604,
+    "date": "2018-01-10T13:40:00.000Z",
+    "address": "129 Rue de Grenelle, 75007 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a561a0731dd600004fc9a35",
+    "lat": 48.84622,
+    "long": 2.317032,
+    "date": "2018-01-10T13:40:00.000Z",
+    "address": "10 Boulevard du Montparnasse, 75015 Paris, France",
+    "device_id": "19c16da7c3c5ce000481a673"
+  },
+  {
+    "id": "1a66442e3af29600042c3273",
+    "lat": 48.841244,
+    "long": 2.398556,
+    "date": "2018-01-22T20:00:00.000Z",
+    "address": "Coulée verte René-Dumont, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a66442d3af29600042c3272",
+    "lat": 48.841204,
+    "long": 2.399096,
+    "date": "2018-01-22T19:55:00.000Z",
+    "address": "Coulée verte René-Dumont, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a65aec23af29600042c31de",
+    "lat": 48.831348,
+    "long": 2.337732,
+    "date": "2018-01-22T09:20:00.000Z",
+    "address": "20 Rue Dareau, 75014 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a65aec13af29600042c31dd",
+    "lat": 48.831348,
+    "long": 2.337632,
+    "date": "2018-01-22T09:15:00.000Z",
+    "address": "20 Rue Dareau, 75014 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a65a8593af29600042c31d8",
+    "lat": 48.839844,
+    "long": 2.397844,
+    "date": "2018-01-22T09:00:00.000Z",
+    "address": "4 Rue du Dr Goujon, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a65a9b43af29600042c31db",
+    "lat": 48.839208,
+    "long": 2.375196,
+    "date": "2018-01-22T09:00:00.000Z",
+    "address": "7 Port de la Rapée, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a65a8593af29600042c31d7",
+    "lat": 48.840184,
+    "long": 2.398064,
+    "date": "2018-01-22T08:55:00.000Z",
+    "address": "9 Rue du Dr Goujon, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a65a9b43af29600042c31da",
+    "lat": 48.839828,
+    "long": 2.397836,
+    "date": "2018-01-22T08:55:00.000Z",
+    "address": "4 Rue du Dr Goujon, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a65a5b73af29600042c31d4",
+    "lat": 48.839768,
+    "long": 2.391144,
+    "date": "2018-01-22T08:40:00.000Z",
+    "address": "13 Rue Dugommier, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a65a5b73af29600042c31d3",
+    "lat": 48.839768,
+    "long": 2.391144,
+    "date": "2018-01-22T08:35:00.000Z",
+    "address": "13 Rue Dugommier, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b10aa2c7570004cacfb7",
+    "lat": 48.839768,
+    "long": 2.391144,
+    "date": "2018-01-21T15:20:00.000Z",
+    "address": "13 Rue Dugommier, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b539a2c7570004cacfcc",
+    "lat": 48.839768,
+    "long": 2.391144,
+    "date": "2018-01-21T15:20:00.000Z",
+    "address": "13 Rue Dugommier, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b10aa2c7570004cacfb6",
+    "lat": 48.839688,
+    "long": 2.390984,
+    "date": "2018-01-21T15:15:00.000Z",
+    "address": "8-10 Rue Dugommier, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b538a2c7570004cacfcb",
+    "lat": 48.839688,
+    "long": 2.390984,
+    "date": "2018-01-21T15:15:00.000Z",
+    "address": "8-10 Rue Dugommier, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b4ffa2c7570004cacfc9",
+    "lat": 48.83916,
+    "long": 2.392128,
+    "date": "2018-01-21T15:10:00.000Z",
+    "address": "22 Boulevard de Reuilly, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b4ffa2c7570004cacfc8",
+    "lat": 48.83986,
+    "long": 2.397468,
+    "date": "2018-01-21T15:05:00.000Z",
+    "address": "1 Rue du Dr Goujon, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64aba2a2c7570004cacfaf",
+    "lat": 48.849104,
+    "long": 2.394736,
+    "date": "2018-01-21T15:00:00.000Z",
+    "address": "296 Place de la Nation, 75011 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64ad24a2c7570004cacfb3",
+    "lat": 48.839876,
+    "long": 2.39748,
+    "date": "2018-01-21T15:00:00.000Z",
+    "address": "1 Rue du Dr Goujon, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b4c1a2c7570004cacfc6",
+    "lat": 48.839876,
+    "long": 2.39748,
+    "date": "2018-01-21T15:00:00.000Z",
+    "address": "1 Rue du Dr Goujon, 75012 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64aba1a2c7570004cacfae",
+    "lat": 48.860664,
+    "long": 2.381556,
+    "date": "2018-01-21T14:55:00.000Z",
+    "address": "29 Rue Saint-Maur, 75011 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64ad23a2c7570004cacfb2",
+    "lat": 48.849096,
+    "long": 2.39474,
+    "date": "2018-01-21T14:55:00.000Z",
+    "address": "296 Place de la Nation, 75011 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b4c1a2c7570004cacfc5",
+    "lat": 48.849096,
+    "long": 2.39474,
+    "date": "2018-01-21T14:55:00.000Z",
+    "address": "296 Place de la Nation, 75011 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a4bca2c7570004cacf8f",
+    "lat": 48.860676,
+    "long": 2.38154,
+    "date": "2018-01-21T14:30:00.000Z",
+    "address": "29 Rue Saint-Maur, 75011 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a4bca2c7570004cacf8e",
+    "lat": 48.860896,
+    "long": 2.38128,
+    "date": "2018-01-21T14:25:00.000Z",
+    "address": "31 Rue Saint-Maur, 75011 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a649e21a2c7570004cacf8c",
+    "lat": 48.86518,
+    "long": 2.411536,
+    "date": "2018-01-21T14:00:00.000Z",
+    "address": "Avenue Ibsen, 75020 Paris, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a649e21a2c7570004cacf8b",
+    "lat": 48.87508,
+    "long": 2.439796,
+    "date": "2018-01-21T13:55:00.000Z",
+    "address": "E15, 93100 Romainville, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b485a2c7570004cacfc3",
+    "lat": 48.949828,
+    "long": 2.474776,
+    "date": "2018-01-21T13:40:00.000Z",
+    "address": "E15, 93600 Aulnay-sous-Bois, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b485a2c7570004cacfc2",
+    "lat": 49.014408,
+    "long": 2.530656,
+    "date": "2018-01-21T13:35:00.000Z",
+    "address": "Autoroute du Nord, 95700 Mauregard, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b449a2c7570004cacfc0",
+    "lat": 49.113232,
+    "long": 2.553452,
+    "date": "2018-01-21T13:30:00.000Z",
+    "address": "Autoroute du Nord, 95470 Survilliers, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b448a2c7570004cacfbf",
+    "lat": 49.207452,
+    "long": 2.612692,
+    "date": "2018-01-21T13:25:00.000Z",
+    "address": "Autoroute du Nord, 60300 Senlis, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b40da2c7570004cacfbd",
+    "lat": 49.2817,
+    "long": 2.695036,
+    "date": "2018-01-21T13:20:00.000Z",
+    "address": "Autoroute du Nord, 60410 Roberval, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b40ca2c7570004cacfbc",
+    "lat": 49.37048,
+    "long": 2.704016,
+    "date": "2018-01-21T13:15:00.000Z",
+    "address": "Autoroute du Nord, 60680 Le Fayel, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b3d1a2c7570004cacfba",
+    "lat": 49.479548,
+    "long": 2.712244,
+    "date": "2018-01-21T13:10:00.000Z",
+    "address": "Autoroute du Nord, 60113 Monchy-Humières, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64b3d0a2c7570004cacfb9",
+    "lat": 49.581848,
+    "long": 2.745564,
+    "date": "2018-01-21T13:05:00.000Z",
+    "address": "Autoroute du Nord, 60490 Biermont, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64aa35a2c7570004cacfac",
+    "lat": 49.69232,
+    "long": 2.77196,
+    "date": "2018-01-21T13:00:00.000Z",
+    "address": "Autoroute du Nord, 80700 Saint-Mard, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64aa35a2c7570004cacfab",
+    "lat": 49.79618,
+    "long": 2.80572,
+    "date": "2018-01-21T12:55:00.000Z",
+    "address": "Autoroute du Nord, 80320 Punchy, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a9f9a2c7570004cacfa9",
+    "lat": 49.904972,
+    "long": 2.849228,
+    "date": "2018-01-21T12:50:00.000Z",
+    "address": "Autoroute du Nord, 80200 Assevillers, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a9f9a2c7570004cacfa8",
+    "lat": 50.003972,
+    "long": 2.875708,
+    "date": "2018-01-21T12:45:00.000Z",
+    "address": "Autoroute du Nord, 80360 Combles, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a9bca2c7570004cacfa6",
+    "lat": 50.071204,
+    "long": 3.002464,
+    "date": "2018-01-21T12:40:00.000Z",
+    "address": "E19, 62124 Ytres, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a9bca2c7570004cacfa5",
+    "lat": 50.142784,
+    "long": 3.124704,
+    "date": "2018-01-21T12:35:00.000Z",
+    "address": "E19, 62147 Graincourt-lès-Havrincourt, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64882fa2c7570004cacf88",
+    "lat": 50.220928,
+    "long": 3.249268,
+    "date": "2018-01-21T12:30:00.000Z",
+    "address": "E19, 59161 Eswars, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64882fa2c7570004cacf87",
+    "lat": 50.340308,
+    "long": 3.468208,
+    "date": "2018-01-21T12:25:00.000Z",
+    "address": "E19, 59121 La Sentinelle, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a6483e9a2c7570004cacf84",
+    "lat": 50.340316,
+    "long": 3.468216,
+    "date": "2018-01-21T12:10:00.000Z",
+    "address": "E19, 59121 La Sentinelle, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a6483e9a2c7570004cacf83",
+    "lat": 50.336836,
+    "long": 3.557856,
+    "date": "2018-01-21T12:05:00.000Z",
+    "address": "E19, 59770 Marly, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a648154a2c7570004cacf80",
+    "lat": 50.432332,
+    "long": 3.652924,
+    "date": "2018-01-21T12:00:00.000Z",
+    "address": "E19, 59154 Crespin, France",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a648154a2c7570004cacf7f",
+    "lat": 50.452712,
+    "long": 3.832264,
+    "date": "2018-01-21T11:55:00.000Z",
+    "address": "E19, 7390 Quaregnon, Belgium",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a981a2c7570004cacfa3",
+    "lat": 50.549336,
+    "long": 4.263124,
+    "date": "2018-01-21T11:30:00.000Z",
+    "address": "E19, 7181 Seneffe, Belgium",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a981a2c7570004cacfa2",
+    "lat": 50.634056,
+    "long": 4.307144,
+    "date": "2018-01-21T11:25:00.000Z",
+    "address": "E19, 1461 Ittre, Belgium",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a944a2c7570004cacfa0",
+    "lat": 50.672092,
+    "long": 4.391608,
+    "date": "2018-01-21T11:20:00.000Z",
+    "address": "R0, 1420 Braine-l'Alleud, Belgium",
+    "device_id": "19bb703b6bf9a000048a4857"
+  },
+  {
+    "id": "1a64a944a2c7570004cacf9f",
+    "lat": 50.751412,
+    "long": 4.432708,
+    "date": "2018-01-21T11:15:00.000Z",
+    "address": "Route de Mont Saint-Jean 23, 1560 Hoeilaart, Belgium",
+    "device_id": "19bb703b6bf9a000048a4857"
+  }
+]
