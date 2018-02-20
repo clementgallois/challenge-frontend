@@ -1,0 +1,10 @@
+.Navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid grey;
+}
+
+.Navbar-logo {
+  margin: 0.5em;
+  height: 50px;
+  width:auto;
+}
