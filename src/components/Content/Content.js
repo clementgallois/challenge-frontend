@@ -5,7 +5,7 @@ import './Content.css';
 class Navbar extends PureComponent {
   render() {
     return (
-      <div className="Content" />
+      <div className="Content card" />
     );
   }
 }
