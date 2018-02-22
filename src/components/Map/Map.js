@@ -71,8 +71,8 @@ Map.propTypes = {
 };
 
 Map.defaultProps = {
-  center: [46.52863469527167, 2.43896484375],
-  zoom: 6,
+  center: [48.853677, 2.342099],
+  zoom: 8,
   markers: null,
 };
 export default Map;
