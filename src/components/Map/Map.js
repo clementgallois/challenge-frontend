@@ -12,51 +12,72 @@ const LightenColor = (percent) => {
   return `rgb(${c[0]}, ${c[1]}, ${c[2]})`;
 };
 
+
 class Map extends Component {
   constructor(props) {
     super(props);
-    this.findCenter = this.findCenter.bind(this);
+    this.findBound = this.findBound.bind(this);
+    this.state = { center: props.center, zoom: props.zoom };
   }
 
-  findCenter() {
-    const { markers } = this.props;
-
-
-    const newCenter = { lat: 0, lng: 0 };
-    for (let i = 0; i < markers.length; i += 1) {
-      newCenter.lat += markers[i].lat;
-      newCenter.lng += markers[i].long;
+  componentWillReceiveProps(nextProps) {
+    if (JSON.stringify(this.props.markers) !== JSON.stringify(nextProps.markers)) {
+      this.findBound(nextProps);
     }
-    newCenter.lat /= markers.length;
-    newCenter.lng /= markers.length;
-    return markers.length > 0 ? newCenter : this.props.center;
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    const center = JSON.stringify(nextState.center) !== JSON.stringify(this.state.center);
+    const zoom = nextState.zoom !== this.state.zoom;
+    return center || zoom;
+  }
+
+  findBound(props) {
+    const { markers } = props;
+    const nw = {
+      lat: Math.max(...markers.map(e => e.lat)),
+      lng: Math.min(...markers.map(e => e.long)),
+    };
+    const se = {
+      lat: Math.min(...markers.map(e => e.lat)),
+      lng: Math.max(...markers.map(e => e.long)),
+    };
+
+    const size = {
+      width: this.mapRef.offsetWidth,
+      height: this.mapRef.offsetHeight,
+    };
+    const { center, zoom } = fitBounds({ nw, se }, size);
+    this.setState({ center, zoom });
+  }
 
   render() {
     const {
       markers,
-      center,
-      zoom,
     } = this.props;
 
+
     return (
-      <GoogleMap
-        // v 3.30 to avoid marker loading from corner when zooming
-        bootstrapURLKeys={{ v: '3.30', key: 'AIzaSyCvGxn7SPRrtdMV-QHUqfIYUqDWR5NzIh4' }}
-        center={this.findCenter()}
-        defaultZoom={zoom}
+      <div
+        style={{ width: '100%', height: '100%' }}
         ref={(map) => { this.mapRef = map; }}
       >
-        {markers &&
-          markers.map((e, i) =>
+        <GoogleMap
+        // v 3.30 to avoid marker loading from corner when zooming
+          bootstrapURLKeys={{ v: '3.30', key: 'AIzaSyCvGxn7SPRrtdMV-QHUqfIYUqDWR5NzIh4' }}
+          center={this.state.center}
+          zoom={this.state.zoom}
+        >
+          {markers.map((e, i) =>
             (<div
+              key={e.id}
               lat={e.lat}
               lng={e.long}
               className="circle"
               style={{ background: LightenColor(i / (markers.length / 100)) }}
             />))}
-      </GoogleMap>
+        </GoogleMap>
+      </div>
     );
   }
 }
@@ -73,6 +94,6 @@ Map.propTypes = {
 Map.defaultProps = {
   center: [48.853677, 2.342099],
   zoom: 8,
-  markers: null,
+  markers: [],
 };
 export default Map;
