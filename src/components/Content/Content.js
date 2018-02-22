@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import List from '../List';
+import Map from '../Map';
 import './Content.css';
 
 const apiRoute = 'https://raw.githubusercontent.com/hibooapp/challenge-frontend/master/data/';
@@ -62,17 +63,24 @@ class Content extends Component {
   }
 
   render() {
+    const {
+      devices,
+      locations,
+    } = this.state;
     return (
       <div className="Content card">
         <List
-          items={this.state.devices}
+          items={devices}
           titleKey="name"
           descKey="last_seen"
           clickHandler={this.setDevice}
         />
-        <div style={{ flex: 2, overflow: 'auto' }}>
+        <div style={{ flex: 2 }}>
+          <Map markers={locations} />
+        </div>
+        <div style={{ flex: 1, overflow: 'auto' }}>
           <List
-            items={this.state.locations}
+            items={locations}
             titleKey="address"
             descKey="date"
             size="small"
