@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import GoogleMap from 'google-map-react';
+import { fitBounds } from 'google-map-react/utils';
 
 import './Map.css';
 
@@ -42,7 +43,7 @@ class Map extends Component {
     return (
       <GoogleMap
         // v 3.30 to avoid marker loading from corner when zooming
-        bootstrapURLKeys={{ v: '3.30' }}
+        bootstrapURLKeys={{ v: '3.30', key: 'AIzaSyCvGxn7SPRrtdMV-QHUqfIYUqDWR5NzIh4' }}
         center={this.findCenter()}
         defaultZoom={zoom}
         ref={(map) => { this.mapRef = map; }}
