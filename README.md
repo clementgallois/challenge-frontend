@@ -5,13 +5,18 @@ app url: https://hiboo-challenge.herokuapp.com/
 currently using react-create-app for simplicity
 not using redux cause it didn't seemed relevant for this challenge
 
-Todo
-  * implement a virtualization for the lists to handle big/huge dataset (start getting really slow at around 2k row)
-  * implement google map
-  * css framework or just some design changes
-      |_ responsive design :)
-  * have a go at sass bem and webpack
-  * custom ordering
+###Todo
+
+  :x: implement a virtualization for the lists to handle big/huge dataset (start getting really slow at around 2k row)
+  
+  :white_check_mark: implement google map
+  
+  :x: css framework or just some design changes
+  responsive design :)
+  
+  :x: have a go at sass bem and webpack
+  
+  :x: custom ordering
 
 # Hiboo Frontend Challenge 2018
 
