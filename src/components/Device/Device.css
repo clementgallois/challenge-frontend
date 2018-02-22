@@ -1,0 +1,19 @@
+.Device{
+  display: block;
+    line-height: 35px;
+    padding: 10px 12px;
+    font-weight: bold;
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+       border-bottom: 1px solid #e8e8e8;
+}
+
+.deviceLastSeen{
+  font-weight: normal;
+  font-size: small;
+}
+
+.Device:hover{
+  background: #f7f7f7;
+}
