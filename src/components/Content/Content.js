@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DeviceList from '../DeviceList';
+import List from '../List';
 import './Content.css';
 
 const apiRoute = 'https://raw.githubusercontent.com/hibooapp/challenge-frontend/master/data/';
@@ -11,7 +11,6 @@ class Content extends Component {
     this.state = {
       devices: [],
       locations: [],
-      selected: null,
     };
     this.loadDevices = this.loadDevices.bind(this);
     this.loadLocations = this.loadLocations.bind(this);
@@ -24,9 +23,8 @@ class Content extends Component {
   }
 
 
-  setDevice(id) {
-    const selected = this.state.devices.find(elem => elem.id === id);
-    console.log(selected);
+  setDevice(item) {
+    const selected = this.state.devices.find(elem => elem.id === item.id);
     this.loadLocations(selected);
   }
 
@@ -34,13 +32,13 @@ class Content extends Component {
     fetch(`${apiRoute}devices.json`)
       .then(resp => resp.json())
       .then((data) => {
+        const devices = data.sort((a, b) => new Date(b.last_seen) - new Date(a.last_seen));
         this.setState({
-          devices: data,
+          devices,
         });
       })
-      .catch((error) => {
-        console.log('there was an error fetching the data');
-        console.log(error);
+      .catch(() => {
+
       });
   }
 
@@ -49,15 +47,16 @@ class Content extends Component {
       fetch(`${apiRoute}locations.json`)
         .then(resp => resp.json())
         .then((data) => {
+          // we filter due to lack of backend (can't query specific id)
+          const res = data.filter(elem => elem.device_id === selected.id);
+
+          const locations = res.sort((a, b) => new Date(b.date) - new Date(a.date));
           this.setState({
-            // we filter due to lack of backend (can't query specific id)
-            locations: data.filter(elem => elem.device_id === selected.id),
-            selected,
+            locations,
           });
         })
-        .catch((error) => {
-          console.log('there was an error fetching the data');
-          console.log(error);
+        .catch(() => {
+
         });
     }
   }
@@ -65,11 +64,20 @@ class Content extends Component {
   render() {
     return (
       <div className="Content card">
-        <DeviceList
-          devices={this.state.devices}
-          setDevice={this.setDevice}
+        <List
+          items={this.state.devices}
+          titleKey="name"
+          descKey="last_seen"
+          clickHandler={this.setDevice}
         />
-        <div style={{ flex: 2 }} />
+        <div style={{ flex: 2, overflow: 'auto' }}>
+          <List
+            items={this.state.locations}
+            titleKey="address"
+            descKey="date"
+            size="small"
+          />
+        </div>
       </div>
     );
   }

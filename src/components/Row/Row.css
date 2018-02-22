@@ -1,19 +1,31 @@
-.Device{
+.Row{
   display: block;
     line-height: 35px;
     padding: 10px 12px;
     font-weight: bold;
     color: #555;
     text-decoration: none;
-    cursor: pointer;
-       border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
 }
 
-.deviceLastSeen{
+.desc{
   font-weight: normal;
   font-size: small;
 }
 
-.Device:hover{
+.Row:hover{
   background: #f7f7f7;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.small{
+  font-size: small;
+  line-height: 15px;
+}
+
+.small .desc{
+  font-size: smaller;
 }
