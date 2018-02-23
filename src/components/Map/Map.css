@@ -6,8 +6,8 @@
   transform: translate(-50%, -50%);
   background: purple;
   border-radius: 50%;
-  border:1px black;
   z-index:0;
+  box-shadow: 0 1px 8px 0 rgba(0,0,0,0.5);
 }
 
 .circle:hover{

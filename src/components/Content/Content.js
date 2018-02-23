@@ -69,22 +69,26 @@ class Content extends Component {
     } = this.state;
     return (
       <div className="Content card">
-        <List
-          items={devices}
-          titleKey="name"
-          descKey="last_seen"
-          clickHandler={this.setDevice}
-        />
-        <div style={{ flex: 2 }}>
+        <div className="Devices">
+          <List
+            items={devices}
+            titleKey="name"
+            descKey="last_seen"
+            clickHandler={this.setDevice}
+          />
+        </div>
+        <div className="Map">
           <Map markers={locations} />
         </div>
-        <div style={{ flex: 1, overflow: 'auto' }}>
-          <List
-            items={locations}
-            titleKey="address"
-            descKey="date"
-            size="small"
-          />
+        <div className="Locations">
+          <div className="test">
+            <List
+              items={locations}
+              titleKey="address"
+              descKey="date"
+              size="small"
+            />
+          </div>
         </div>
       </div>
     );
