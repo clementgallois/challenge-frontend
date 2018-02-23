@@ -5,6 +5,10 @@ app url: https://hiboo-challenge.herokuapp.com/
 currently using react-create-app for simplicity
 not using redux cause it didn't seemed relevant for this challenge
 
+### Third party
+ * google-react-map
+ * momentjs (to validate & format dates)
+
 ### Todo
 
   :x: implement a virtualization for the lists to handle big/huge dataset (start getting really slow at around 2k row)

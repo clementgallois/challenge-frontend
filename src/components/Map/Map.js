@@ -6,7 +6,7 @@ import { fitBounds } from 'google-map-react/utils';
 
 import './Map.css';
 
-const LightenColor = (percent) => {
+const lightenColor = (percent) => {
   const color = [126, 77, 255];
   const c = Array.from(color, e => Math.round(e + ((200 - e) * (percent / 100))));
   return `rgb(${c[0]}, ${c[1]}, ${c[2]})`;
@@ -56,7 +56,6 @@ class Map extends Component {
       markers,
     } = this.props;
 
-
     return (
       <div
         style={{ width: '100%', height: '100%' }}
@@ -74,7 +73,7 @@ class Map extends Component {
               lat={e.lat}
               lng={e.long}
               className="circle"
-              style={{ background: LightenColor(i / (markers.length / 100)) }}
+              style={{ background: lightenColor(i / (markers.length / 100)), zIndex: markers.length - i }}
             />))}
         </GoogleMap>
       </div>
