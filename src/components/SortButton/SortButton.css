@@ -1,0 +1,32 @@
+.SortButton {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #2e2e2e;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 12px;
+    /* font-size: 1.2rem; */
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: none;
+    font: 400 13.3333px Arial;
+    outline:none;
+}
+
+.arrow{
+  margin-left: 5px;
+  border: solid #2e2e2e;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+    margin-bottom: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.up {
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+}

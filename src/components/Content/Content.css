@@ -17,6 +17,7 @@ border-top-left-radius: 12px 6px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
 }
+
 .Map{
   flex:2;
   border-right:  1px solid lightgrey;

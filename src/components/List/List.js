@@ -9,20 +9,25 @@ function checkDate(str) {
   const date = moment(str, moment.ISO_8601, true);
 
   if (date.isValid()) {
-    return `${date.format('L')} at ${date.format('HH:mm:ss')}`;
+    return `${date.format('DD/MM/YY')} at ${date.format('HH:mm:ss')}`;
   }
   return str;
 }
 
 class List extends PureComponent {
   render() {
+    const {
+      titleKey,
+      descKey,
+      items,
+    } = this.props;
     return (
       <div className="List">
-        {this.props.items.map((elem) => (
+        {items.map((elem) => (
           <Row
             key={elem.id}
-            title={elem[this.props.titleKey]}
-            desc={checkDate(elem[this.props.descKey])}
+            title={elem[titleKey]}
+            desc={checkDate(elem[descKey])}
             onClick={this.props.clickHandler ? () => this.props.clickHandler(elem) : null}
             {...this.props}
           />
