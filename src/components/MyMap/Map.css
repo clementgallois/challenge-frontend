@@ -6,14 +6,14 @@
   transform: translate(-50%, -50%);
   background: purple;
   border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: width 0.3s ,height 0.3s, border-width 0.3s;
+  border:1px black;
+  z-index:0;
 }
 
-.hover{
-  border: 4px solid #90cc42;
+.circle:hover{
+  border: 5px solid #BADA55;
   width: 30px;
   height:30px;
   cursor: pointer;
-  z-index: 1000000 !important;
+  z-index: 1;
 }

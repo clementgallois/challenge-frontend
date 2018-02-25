@@ -29,7 +29,9 @@ class List extends PureComponent {
             title={elem[titleKey]}
             desc={checkDate(elem[descKey])}
             onClick={this.props.clickHandler ? () => this.props.clickHandler(elem) : null}
-            {...this.props}
+            hoverHandler={this.props.hoverHandler ? (e) => this.props.hoverHandler(e, elem.id) : null}
+            size={this.props.size}
+            hover={this.props.hover === elem.id}
           />
         ))}
       </div>
@@ -42,12 +44,18 @@ List.propTypes = {
   titleKey: PropTypes.string,
   descKey: PropTypes.string,
   clickHandler: PropTypes.func,
+  hoverHandler: PropTypes.func,
+  size: PropTypes.string,
+  hover: PropTypes.string
 };
 
 List.defaultProps = {
   titleKey: 'title',
   descKey: 'desc',
   clickHandler: null,
+  hoverHandler: null,
+  size: '',
+  hover: null,
 };
 
 export default List;

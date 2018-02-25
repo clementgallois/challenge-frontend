@@ -1,4 +1,5 @@
 .Row{
+  cursor:default;
   display: block;
     line-height: 35px;
     padding: 10px 12px;
@@ -14,8 +15,12 @@
   font-size: small;
 }
 
+.rowHover{
+    background: #d0d0d0;
+    box-shadow: inset 0 5px 8px 0 rgba(0,0,0,0.1);
+}
 .Row:hover{
-  background: #f7f7f7;
+  background: #d0d0d0;
 }
 .Row:focus{
   background: #dddddd;

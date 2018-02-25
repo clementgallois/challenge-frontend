@@ -4,20 +4,14 @@ import PropTypes from 'prop-types';
 import GoogleMap from 'google-map-react';
 import { fitBounds } from 'google-map-react/utils';
 
+import Marker from '../Marker';
 import './Map.css';
-
-const lightenColor = (percent) => {
-  const color = [126, 77, 255];
-  const c = Array.from(color, e => Math.round(e + ((200 - e) * (percent / 100))));
-  return `rgb(${c[0]}, ${c[1]}, ${c[2]})`;
-};
-
 
 class Map extends Component {
   constructor(props) {
     super(props);
     this.findBound = this.findBound.bind(this);
-    this.state = { center: props.center, zoom: props.zoom };
+    this.state = { center: props.center, zoom: props.zoom, hover: null };
   }
 
   componentWillReceiveProps(nextProps) {
@@ -29,7 +23,8 @@ class Map extends Component {
   shouldComponentUpdate(nextProps, nextState) {
     const center = JSON.stringify(nextState.center) !== JSON.stringify(this.state.center);
     const zoom = nextState.zoom !== this.state.zoom;
-    return center || zoom;
+    const hover = nextProps.hover !== this.props.hover;
+    return hover || center || zoom;
   }
 
   findBound(props) {
@@ -51,6 +46,16 @@ class Map extends Component {
     this.setState({ center, zoom });
   }
 
+  handleHover(e){
+    if (!this.state.hover)
+    {
+      this.setState({ hover: e });
+    }
+    else {
+      this.setState({ hover: null });
+    }
+  }
+
   render() {
     const {
       markers,
@@ -66,14 +71,18 @@ class Map extends Component {
           bootstrapURLKeys={{ v: '3.30', key: 'AIzaSyCvGxn7SPRrtdMV-QHUqfIYUqDWR5NzIh4' }}
           center={this.state.center}
           zoom={this.state.zoom}
+          hoverDistance={this.state.hover ? 20 : 10}
+          onChildMouseEnter={this.props.enterMarker}
+          onChildMouseLeave={this.props.leaveMarker}
         >
           {markers.map((e, i) =>
-            (<div
+            (<Marker
               key={e.id}
               lat={e.lat}
               lng={e.long}
-              className="circle"
-              style={{ background: lightenColor(i / (markers.length / 100)), zIndex: markers.length - i }}
+              color={i / (markers.length / 100)}
+              zindex={markers.length - i}
+              hover={this.props.hover === e.id}
             />))}
         </GoogleMap>
       </div>
@@ -88,11 +97,17 @@ Map.propTypes = {
     lat: PropTypes.number,
     lng: PropTypes.number,
   })),
+  hover: PropTypes.string,
+  enterMarker: PropTypes.func,
+  leaveMarker: PropTypes.func,
 };
 
 Map.defaultProps = {
   center: [48.853677, 2.342099],
   zoom: 8,
   markers: [],
+  hover: null,
+  enterMarker: null,
+  leaveMarker: null
 };
 export default Map;

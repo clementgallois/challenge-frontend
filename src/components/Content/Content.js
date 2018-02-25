@@ -18,13 +18,25 @@ class Content extends Component {
         order: DESC,
       },
       locations: [],
+      hover: null
     };
     this.loadDevices = this.loadDevices.bind(this);
     this.loadLocations = this.loadLocations.bind(this);
     this.setDevice = this.setDevice.bind(this);
     this.sortDevices = this.sortDevices.bind(this);
+
+    this.enterMarker = this.enterMarker.bind(this);
+    this.leaveMarker = this.leaveMarker.bind(this);
+    this.listHover = this.listHover.bind(this);
   }
 
+
+  shouldComponentUpdate(nextProps, nextState){
+    const hover = this.state.hover !== nextState.hover;
+    const locations = JSON.stringify(this.state.locations) !== JSON.stringify(nextState.locations);
+    const devices = JSON.stringify(this.state.devices) !== JSON.stringify(nextState.devices);
+    return hover || locations || devices;
+  }
 
   componentDidMount() {
     this.loadDevices();
@@ -95,6 +107,18 @@ class Content extends Component {
     }
   }
 
+  enterMarker(key){
+    this.setState({ hover: key });
+  }
+
+  leaveMarker(){
+    this.setState({ hover: null });
+  }
+
+  listHover(e, id){
+    this.setState({ hover: (e.type === 'mouseenter' ? id : null) });
+  }
+
   render() {
     const {
       devices,
@@ -124,7 +148,12 @@ class Content extends Component {
           />
         </div>
         <div className="Map">
-          <Map markers={locations} />
+          <Map
+            markers={locations}
+            hover={this.state.hover}
+            enterMarker={this.enterMarker}
+            leaveMarker={this.leaveMarker}
+          />
         </div>
         <div className="Locations">
           <div className="test">
@@ -133,6 +162,8 @@ class Content extends Component {
               titleKey="address"
               descKey="date"
               size="small"
+              hoverHandler={this.listHover}
+              hover={this.state.hover}
             />
           </div>
         </div>

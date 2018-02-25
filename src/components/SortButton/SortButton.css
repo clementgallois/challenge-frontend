@@ -13,7 +13,9 @@
     font: 400 13.3333px Arial;
     outline:none;
 }
-
+.SortButton:focus{
+  border: 2px solid #9ab5eb;
+}
 .arrow{
   margin-left: 5px;
   border: solid #2e2e2e;
