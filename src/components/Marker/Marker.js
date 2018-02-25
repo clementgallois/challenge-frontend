@@ -35,13 +35,13 @@ class Marker extends Component {
 }
 
 Marker.propTypes = {
-  hover: PropTypes.string,
+  hover: PropTypes.bool,
   color: PropTypes.number,
   zindex: PropTypes.number,
 };
 
 Marker.defaultProps = {
-  hover: null,
+  hover: false,
   color: 0,
   zindex: 0,
 };

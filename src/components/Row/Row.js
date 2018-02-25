@@ -9,7 +9,7 @@ class Row extends Component {
 
   componentWillReceiveProps(nextProps){
     if (this.props.hover !== nextProps.hover){
-      // unsuported by firefox at the moment, use module ?
+      // unsuported by firefox at the moment, use npm module ?
       this.ref.scrollIntoViewIfNeeded({ behavior: 'auto' });
     }
   }
@@ -45,7 +45,7 @@ Row.propTypes = {
   onClick: PropTypes.func,
   hoverHandler: PropTypes.func,
   size: PropTypes.string,
-  hover: PropTypes.string,
+  hover: PropTypes.bool,
 };
 
 Row.defaultProps = {
@@ -54,7 +54,7 @@ Row.defaultProps = {
   onClick: null,
   hoverHandler: null,
   size: '',
-  hover: null,
+  hover: false,
 };
 
 export default Row;

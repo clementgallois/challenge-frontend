@@ -11,7 +11,7 @@ class Map extends Component {
   constructor(props) {
     super(props);
     this.findBound = this.findBound.bind(this);
-    this.state = { center: props.center, zoom: props.zoom, hover: null };
+    this.state = { center: props.center, zoom: props.zoom };
   }
 
   componentWillReceiveProps(nextProps) {
@@ -24,6 +24,7 @@ class Map extends Component {
     const center = JSON.stringify(nextState.center) !== JSON.stringify(this.state.center);
     const zoom = nextState.zoom !== this.state.zoom;
     const hover = nextProps.hover !== this.props.hover;
+
     return hover || center || zoom;
   }
 
@@ -71,7 +72,7 @@ class Map extends Component {
           bootstrapURLKeys={{ v: '3.30', key: 'AIzaSyCvGxn7SPRrtdMV-QHUqfIYUqDWR5NzIh4' }}
           center={this.state.center}
           zoom={this.state.zoom}
-          hoverDistance={this.state.hover ? 20 : 10}
+          hoverDistance={this.props.hover ? 20 : 10}
           onChildMouseEnter={this.props.enterMarker}
           onChildMouseLeave={this.props.leaveMarker}
         >
