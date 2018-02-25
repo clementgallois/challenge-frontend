@@ -2,8 +2,12 @@
 
 app url: https://hiboo-challenge.herokuapp.com/
 
-currently using react-create-app for simplicity
-not using redux cause it didn't seemed relevant for this challenge
+using react-create-app for simplicity
+
+#### Features
+* Ordering of the list
+* Map of the devices with hovering effect synchronized with the locations list
+
 
 ### Third party libraries
  * google-react-map (allow to used components as markers, easy to use)
