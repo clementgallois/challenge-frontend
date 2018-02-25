@@ -6,7 +6,7 @@ currently using react-create-app for simplicity
 not using redux cause it didn't seemed relevant for this challenge
 
 ### Third party
- * google-react-map
+ * google-react-map (allow to used components as markers, easy to use)
  * momentjs (to validate & format dates)
 
 ### Todo
@@ -17,11 +17,11 @@ not using redux cause it didn't seemed relevant for this challenge
   
   :white_check_mark: design changes
 
-  ? responsive design :)
+  :x: responsive design :)
   
   :x: have a go at sass bem and webpack
   
-  :x: custom ordering
+  :white_check_mark: custom ordering
 
 # Hiboo Frontend Challenge 2018
 
